@@ -5,7 +5,7 @@ A wasm_bindgen wrapper for [nzsc_single_player_json_interface](https://github.co
 ## Usage
 
 ```bash
-npm -i @nzsc/nzsc_single_player_wasm_json_interface
+npm i --save @nzsc/nzsc_single_player_wasm_json_interface
 ```
 
 ```js
