@@ -1,0 +1,19 @@
+{
+  "name": "@nzsc/nzsc_single_player_wasm_json_interface",
+  "collaborators": [
+    "Kyle Lin <kylejlin.us@gmail.com>"
+  ],
+  "description": "A wasm_bindgen wrapper for nzsc_single_player_json_interface",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzsc-org/nzsc_single_player_wasm_json_interface"
+  },
+  "files": [
+    "nzsc_single_player_wasm_json_interface_bg.wasm",
+    "nzsc_single_player_wasm_json_interface.d.ts"
+  ],
+  "main": "nzsc_single_player_wasm_json_interface.js",
+  "types": "nzsc_single_player_wasm_json_interface.d.ts"
+}

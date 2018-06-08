@@ -1,0 +1,23 @@
+[package]
+name = "nzsc_single_player_wasm_json_interface"
+version = "0.1.0"
+authors = ["Kyle Lin <kylejlin.us@gmail.com>"]
+
+description = "A wasm_bindgen wrapper for nzsc_single_player_json_interface"
+license = "MIT"
+repository = "https://github.com/nzsc-org/nzsc_single_player_wasm_json_interface"
+
+# Should only be published to NPM, not Crates.io
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.4"
+nzsc_single_player = "0.5.1"
+nzsc_single_player_json_interface = "0.1.0"
+
+[profile.release]
+lto = true
+opt-level = "z"
