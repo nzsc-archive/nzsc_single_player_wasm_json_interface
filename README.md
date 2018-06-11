@@ -2,6 +2,11 @@
 
 A wasm_bindgen wrapper for [nzsc_single_player_json_interface](https://github.com/nzsc-org/nzsc_single_player_json_interface).
 
+## Deprecation Notice
+
+**This package is now deprecated.
+Please write your own WebAssembly wrapper for [nzsc_single_player_json_interface](https://github.com/nzsc-org/nzsc_single_player_json_interface).**
+
 ## Usage
 
 ```bash
